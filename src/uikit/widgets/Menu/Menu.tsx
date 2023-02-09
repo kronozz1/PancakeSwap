@@ -154,11 +154,11 @@ const Menu: React.FC<NavProps> = ({
           {/* {banner && <TopBannerContainer height={topBannerHeight}>{banner}</TopBannerContainer>} */}
           <StyledNav>
             <Flex>
-              <img src="https://img.icons8.com/fluency/512/exchange-money-ethereum.png" width="60" height="40" isDark={isDark} href={homeLink?.href ?? '/swap'} />
+              <img src="https://img.icons8.com/fluency/512/exchange-money-ethereum.png" width="50" height="30"  />
               <Small>
                 <sup>
                   <Badge>
-                    <span>TESTNET</span>
+                    <span><a href='/swap'>TESTNET</a></span>
                   </Badge>
                 </sup>
               </Small>
